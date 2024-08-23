@@ -71,10 +71,15 @@ section#img1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 section#img2 {
     background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 footer {
