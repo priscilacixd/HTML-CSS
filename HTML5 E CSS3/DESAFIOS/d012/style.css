@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+    --fonte1: 'Kalam';
+    --fonte2: 'Anton';
+    --cor1: rgb(0, 32, 25);
+    --cor2: rgba(32, 195, 157, 0.663);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -13,12 +23,13 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: var(--cor1);
     color: white;
     text-align: center;
 }
 
 header h1 {
+    font-family: var(--fonte2);
     font-size: 10vw;
     padding-top: 50px;
 }
@@ -34,14 +45,15 @@ header a {
 }
 
 header a:hover {
-    color: rgba(32, 195, 157, 0.663);
+    color: var(--cor2);
     text-decoration: underline;
 }
 
 section {
+    font-family: var(--fonte1);
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
+    padding-left: 50px;
     font-size: 3.5vw;
     line-height: 2em;
 }
@@ -85,7 +97,7 @@ section#img2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: black;
+    background-color: var(--cor1);
     color: white;
 }
 
@@ -96,6 +108,6 @@ footer a {
 }
 
 footer a:hover {
-    color: rgba(32, 195, 157, 0.663);
+    color: var(--cor2);
     text-decoration: underline;
 }
