@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    min-height: 100vh;
+    font-family: cursive;
+    background-color: rgba(90, 89, 89, 0.942);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 10vw;
+    padding-top: 50px;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgba(32, 195, 157, 0.663);
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    box-shadow: inset 2px 3px 15px 0px #00000057;
+    color: white;
+}
+
+section.imagem p {
+    background-color: rgba(9, 5, 5, 0.598);
+    text-shadow: 1px 1px 2px black;
+    display: inline-block;
+    padding: 5px;
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: rgba(32, 195, 157, 0.663);
+    text-decoration: underline;
+}
